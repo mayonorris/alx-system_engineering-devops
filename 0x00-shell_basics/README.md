@@ -21,4 +21,4 @@ rm /tmp/my_first_directory/betty : delete the betty file from the /tmp/my_first_
 
 rm -r /tmp/my_first_directory: removing directory
 
-cd ..: back to the previous directory  
+cd - : back to the previous directory  
