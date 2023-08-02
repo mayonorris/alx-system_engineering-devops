@@ -8,3 +8,7 @@ ls -l : Display current directory contents in a long forma
 
 ls -la : Display current directory contents, including hidden files (starting with .). Use the long format.
 
+ls -lna : Display current directory content: 
+  Long format, 
+  with user and group IDs displayed numerically, 
+  And hidden files (starting with .) 
