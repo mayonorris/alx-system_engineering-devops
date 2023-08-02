@@ -19,4 +19,6 @@ mv /tmp/betty /tmp/my_first_directory : Move the file betty from /tmp/ to /tmp/m
 
 rm /tmp/my_first_directory/betty : delete the betty file from the /tmp/my_first_directory directory  
 
-rm -r /tmp/my_first_directory: removing directory 
+rm -r /tmp/my_first_directory: removing directory
+
+cd ..: back to the previous directory  
