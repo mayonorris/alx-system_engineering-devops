@@ -13,6 +13,6 @@ ls -lna : Display current directory content:
   with user and group IDs displayed numerically, 
   And hidden files (starting with .)
 
-mkdir -p tmp/my_first_directory : reates a directory named my_first_directory in the /tmp/ directory.
+mkdir /tmp/my_first_directory : reates a directory named my_first_directory in the /tmp/ directory.
 
- 
+
