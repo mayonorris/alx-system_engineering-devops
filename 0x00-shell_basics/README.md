@@ -21,4 +21,8 @@ rm /tmp/my_first_directory/betty : delete the betty file from the /tmp/my_first_
 
 rm -r /tmp/my_first_directory: removing directory
 
-cd - : back to the previous directory  
+cd - : back to the previous directory 
+
+ls -al . .. /boot : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+
+ 
