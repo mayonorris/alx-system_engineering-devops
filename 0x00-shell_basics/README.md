@@ -27,4 +27,8 @@ ls -al . .. /boot : Write a script that lists all files (even ones with names be
 
 file /tmp/iamafile : prints the file  iamafile type 
 
-ln -s /bin/ls __ls__ : Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory. 
+ln -s /bin/ls __ls__ : Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+
+cp -un *.html ../ : Copies HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
+ 
