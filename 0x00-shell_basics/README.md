@@ -2,4 +2,4 @@
 $(pwd), gets the absolute path of the current working directory and echo print the working directory.
 ls Display the contents list of your current directory.
 
- cd ..: bring to the home directory 
+ cd ~: bring to the home directory 
