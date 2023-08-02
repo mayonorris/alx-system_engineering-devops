@@ -1,8 +1,9 @@
- The first line #!/bin/bash, tells the shell that this is a Bash shell script.
-$(pwd), gets the absolute path of the current working directory and echo print the working directory.
+The first line #!/bin/bash, tells the shell that this is a Bash shell script.
+pwd, gets the absolute path of the current working directory 
+
 ls Display the contents list of your current directory.
 
- cd ~: bring to the home directory 
+cd ~: bring to the home directory 
 
 ls -l : Display current directory contents in a long forma
 
@@ -32,3 +33,5 @@ ln -s /bin/ls __ls__ : Create a symbolic link to /bin/ls, named __ls__. The symb
 cp -un *.html ../ : Copies HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
 mv [[:upper:]]* /tmp/u : moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+rm *~:  Deletes all files in the current working directory that end with the character ~. 
