@@ -17,4 +17,6 @@ mkdir /tmp/my_first_directory : reates a directory named my_first_directory in t
 
 mv /tmp/betty /tmp/my_first_directory : Move the file betty from /tmp/ to /tmp/my_first_directory. 
 
+rm /tmp/my_first_directory/betty : delete the betty file from the /tmp/my_first_directory directory  
+
 
