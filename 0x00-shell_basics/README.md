@@ -11,4 +11,8 @@ ls -la : Display current directory contents, including hidden files (starting wi
 ls -lna : Display current directory content: 
   Long format, 
   with user and group IDs displayed numerically, 
-  And hidden files (starting with .) 
+  And hidden files (starting with .)
+
+mkdir -p tmp/my_first_directory : reates a directory named my_first_directory in the /tmp/ directory.
+
+ 
