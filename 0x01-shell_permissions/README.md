@@ -14,7 +14,7 @@ chmod ug+x,o+r hello  : Write a script that adds execute permission to the owner
 
 chmod ugo+x hello : Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 
-chmod o+rwx hello : sets the permission to the file hello as follows:
+chmod 007  hello : sets the permission to the file hello as follows:
 
     Owner: no permission at all
     Group: no permission at all
