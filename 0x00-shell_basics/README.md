@@ -36,8 +36,7 @@ mv [[:upper:]]* /tmp/u : moves all files beginning with an uppercase letter to t
 
 rm *~:  Deletes all files in the current working directory that end with the character ~. 
 
-mkdir -p welcome/to/school : creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+mkdir -p welcome/to/school : This command  creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
-ls -amvp : a command that lists all the files and directories of the current directory, separated by commas (,).
 
 
