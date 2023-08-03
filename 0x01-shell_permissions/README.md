@@ -44,4 +44,5 @@ chown -h  vincent:staff _hello :  a script that changes the owner and the group 
 
 chown --from=guillaume betty hello: a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
 
+telnet towel.blinkenlights.nl : script that will play the StarWars IV episode in the terminal.
 
