@@ -33,4 +33,4 @@ chmod -R +X . : a script that adds execute permission to all subdirectories of t
 
 mkdir -m 751 my_dir : Creates a script that creates a directory called my_dir with permissions 751 in the working directory.   
 
-
+chgrp school hello : a script that changes the group owner to school for the file hello
