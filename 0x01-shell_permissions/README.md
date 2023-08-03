@@ -8,6 +8,6 @@ chown betty hello : change the owner of the file hello to betty
 
 touch hello : creates an empty file named hello
 
-chmod +x hello : adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+chmod -rwxr--r-- : adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 
   
