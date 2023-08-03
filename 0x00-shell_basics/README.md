@@ -24,7 +24,7 @@ rm -r /tmp/my_first_directory: removing directory
 
 cd - : back to the previous directory 
 
-ls -al . .. /boot : Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+ls -al . .. /boot : Llists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
 file /tmp/iamafile : prints the file  iamafile type 
 
@@ -35,3 +35,5 @@ cp -un *.html ../ : Copies HTML files from the current working directory to the 
 mv [[:upper:]]* /tmp/u : moves all files beginning with an uppercase letter to the directory /tmp/u.
 
 rm *~:  Deletes all files in the current working directory that end with the character ~. 
+
+mkdir -p welcome/to/school : creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
