@@ -5,4 +5,6 @@ echo "\ "(Ôo)'" : displays  confused smiley
 
 echo cat /etc/passwd : displays the content of the /etc/passwd file 
 
- 
+cat /etc/passwd  /etc/hosts : displays the contents of both /etc/passwd and /etc/hosts files 
+
+  
