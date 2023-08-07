@@ -45,4 +45,8 @@ tr 'Ac' 'Ze' : Replace all characters A and c from input to Z and e respectively
 
 tr -d 'Cc' : removes all letters c and C from input.
 
-rev : Reverse input 
+rev : Reverse input
+
+
+Write a script that displays all users and their home directories, sorted by users.
+	cut -d":" --fields=1,6 /etc/passwd | sort 
