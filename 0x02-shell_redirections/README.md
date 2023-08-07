@@ -34,4 +34,6 @@ egrep root /etc/passwd : Display lines containing the pattern “root” from th
 
 egrep bin /etc/passwd | wc -l : Counts the number of lines that contains pattern 'bin'
 
- 
+cat /etc/passwd | egrep -A 3 "root" : Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+
