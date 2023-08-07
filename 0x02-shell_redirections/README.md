@@ -38,4 +38,7 @@ cat /etc/passwd | egrep -A 3 "root" : Display lines containing the pattern “ro
 
 egrep -v bin /etc/passwd : Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 
+grep ^[[:alpha:]] /etc/ssh/sshd_config : Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+
+
 
