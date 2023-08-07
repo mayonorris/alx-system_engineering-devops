@@ -13,6 +13,6 @@ head  /etc/passwd : the first ten lines of the file /etc/passwd
 
 head -n 3 iacta |tail -n 1 : displays the third line of the file iacta
 
-echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:): creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. 
+'\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)': creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. 
 
 
