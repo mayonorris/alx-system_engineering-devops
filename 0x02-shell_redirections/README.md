@@ -3,4 +3,6 @@ echo "Hello, World": prints "Hello, World"
  
 echo "\ "(Ôo)'" : displays  confused smiley
 
+echo cat /etc/passwd : displays the content of the /etc/passwd file 
+
  
