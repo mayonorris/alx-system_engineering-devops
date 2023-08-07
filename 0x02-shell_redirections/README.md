@@ -25,3 +25,5 @@ find . -mindepth 1 -type d | wc -l : counts the number of directories and sub-di
 
 The current and parent directories should not be taken into account,
 Hidden directories should be counted
+
+ls -t | head : displays the ten newest files il the current directory
