@@ -27,3 +27,7 @@ The current and parent directories should not be taken into account,
 Hidden directories should be counted
 
 ls -t | head : displays the ten newest files il the current directory
+
+sort | uniq -u :  takes a list of words as input and prints only words that appear exactly once.
+
+
