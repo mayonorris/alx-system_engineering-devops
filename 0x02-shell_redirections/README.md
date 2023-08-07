@@ -49,9 +49,9 @@ rev : Reverse input
 
 
 Write a script that displays all users and their home directories, sorted by users.
+
 	cut -d":" --fields=1,6 /etc/passwd | sort
 
  command that finds all empty files and directories in the current directory and all sub-directories.
-	find . -type d -empty -o -type f -empty 
 
-
+	find . -type d -empty -o -type f -empty -a -printf "%f\n"
