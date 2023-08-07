@@ -30,4 +30,8 @@ ls -t | head : displays the ten newest files il the current directory
 
 sort | uniq -u :  takes a list of words as input and prints only words that appear exactly once.
 
-egrep root /etc/passwd : Display lines containing the pattern “root” from the file /etc/passwd 
+egrep root /etc/passwd : Display lines containing the pattern “root” from the file /etc/passwd
+
+egrep bin /etc/passwd | wc -l : Counts the number of lines that contains pattern 'bin'
+
+ 
