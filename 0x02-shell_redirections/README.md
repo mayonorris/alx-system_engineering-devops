@@ -55,3 +55,9 @@ Write a script that displays all users and their home directories, sorted by use
  command that finds all empty files and directories in the current directory and all sub-directories.
 
 	find . -type d -empty -o -type f -empty -a -printf "%f\n"
+
+Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+	find . -type f -name "*.gif" | sed 's/.gif//' | sort -f 
+
+
