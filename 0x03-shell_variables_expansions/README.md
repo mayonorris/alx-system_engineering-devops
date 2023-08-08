@@ -90,6 +90,5 @@ a script that prints every other line from the input, starting with the first li
 
 
 	#!/bin/bash
-	echo -n "$((5#${WATER//water/01234} + 5#${STIR//stir./01234}))" | tr 01234567 bestchol
-
+	printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol
 
