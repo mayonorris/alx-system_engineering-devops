@@ -46,8 +46,10 @@ script that prints the result of the addition of 128 with the value stored in th
 	#!/bin/bash
 	echo $(($TRUEKNOWLEDGE+128))
 
+script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
-
+	#!/bin/bash
+	echo $(($POWER/$DIVIDE))
 
 
 
