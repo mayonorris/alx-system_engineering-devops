@@ -65,7 +65,14 @@ A  script that prints all possible combinations of two letters, except oo.
 	echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
 
 A script that prints float 
+	
 	#!/bin/bash
 	printf "%0.2f\n" $NUM
+
+
+ a script that converts a number from base 10 to base 16: 
+
+	#!/bin/bash
+	$(printf "%x" "$DECIMAL")
 
 
