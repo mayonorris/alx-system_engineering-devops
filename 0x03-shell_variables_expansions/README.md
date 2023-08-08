@@ -80,3 +80,10 @@ a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 	#!/bin/bash
 	tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
+
+a script that prints every other line from the input, starting with the first line:
+
+	#!/bin/bash
+	paste -d" " - - | cut -d " " -f 1
+
+
