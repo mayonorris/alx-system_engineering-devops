@@ -60,4 +60,6 @@ Write a script that lists all the files with a .gif extension in the current dir
 
 	find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
 
-
+decodes acrostics that use the first letter of each line.
+	
+	echo -ne $(cut -c-1 | tr -d '\n')'\n'
