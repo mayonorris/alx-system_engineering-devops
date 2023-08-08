@@ -30,4 +30,9 @@ Printing local variables :
 	#!/bin/bash
 	set 
 
+Create local variable :
+
+	#!/bin/bash
+	BEST = "School" 
+
 
