@@ -11,6 +11,7 @@ Script that creates an alias : name ls; valus rm *
 	echo "hello $USE"
 
 Add /action to the PATH:
+
 	#!/bin/bash
 	PATH=$PATH:/action 
 
@@ -23,5 +24,10 @@ printing all variables in the environnement
 
 	#!/bin/bash
 	printenv
+
+Printing local variables : 
+	
+	#!/bin/bash
+	set 
 
 
