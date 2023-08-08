@@ -55,3 +55,9 @@ script that displays the result of BREATH to the power LOVE
 	#!/bin/bash
 	echo $(($BREATH**$LOVE))
 
+Convert binary to decimal : 
+
+	#!/bin/bash
+	echo $((2#$BINARY))
+
+
