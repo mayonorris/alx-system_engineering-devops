@@ -58,6 +58,6 @@ Write a script that displays all users and their home directories, sorted by use
 
 Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 
-	find . -type f -name "*.gif" | sed 's/.gif//' | sort -f 
+	find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
 
 
