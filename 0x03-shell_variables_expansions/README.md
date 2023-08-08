@@ -18,3 +18,10 @@ Counting directories in the path :
 
 	#!/bin/bash
 	echo $PATH | tr ":" "\n" | wc -l
+
+printing all variables in the environnement 
+
+	#!/bin/bash
+	printenv
+
+
