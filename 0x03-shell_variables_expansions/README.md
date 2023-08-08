@@ -60,4 +60,8 @@ Convert binary to decimal :
 	#!/bin/bash
 	echo $((2#$BINARY))
 
+A  script that prints all possible combinations of two letters, except oo.
+	#!/bin/bash
+	echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
+
 
