@@ -86,4 +86,10 @@ a script that prints every other line from the input, starting with the first li
 	#!/bin/bash
 	paste -d" " - - | cut -d " " -f 1
 
+ shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result: 
+
+
+	#!/bin/bash
+	echo -n "$((5#${WATER//water/01234} + 5#${STIR//stir./01234}))" | tr 01234567 bestchol
+
 
