@@ -14,4 +14,7 @@ Add /action to the PATH:
 	#!/bin/bash
 	PATH=$PATH:/action 
 
+Counting directories in the path :
 
+	#!/bin/bash
+	echo $PATH | tr ":" "\n" | wc -l
