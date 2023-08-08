@@ -75,4 +75,8 @@ A script that prints float
 	#!/bin/bash
 	$(printf "%x" "$DECIMAL")
 
+a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+	#!/bin/bash
+	tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
