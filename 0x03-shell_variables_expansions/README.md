@@ -35,7 +35,7 @@ Create local variable :
 	#!/bin/bash
 	BEST =School
 
-Create global variable 
+Here is the script to Create global variable 
 
 	#!/bin/bash
 	export BEST=School
