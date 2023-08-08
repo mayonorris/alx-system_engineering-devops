@@ -33,6 +33,6 @@ Printing local variables :
 Create local variable :
 
 	#!/bin/bash
-	BEST = School
+	BEST =School
 
 
