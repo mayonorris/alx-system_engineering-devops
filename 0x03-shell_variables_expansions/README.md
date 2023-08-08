@@ -9,4 +9,9 @@ Script that creates an alias : name ls; valus rm *
 
 	#!/bin/bash 
 	echo "hello $USE"
- 
+
+Add /action to the PATH:
+	#!/bin/bash
+	PATH=$PATH:/action 
+
+
