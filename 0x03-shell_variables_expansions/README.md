@@ -41,5 +41,10 @@ Create global variable
 	export BEST=School
 
 
+script that prints the result of the addition of 128 with the value stored in the environment variable:
+
+	#!/bin/bash
+	echo $(($TRUEKNOWLEDGE+128)) 
+
 
 
