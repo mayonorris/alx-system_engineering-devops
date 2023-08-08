@@ -64,4 +64,8 @@ A  script that prints all possible combinations of two letters, except oo.
 	#!/bin/bash
 	echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
 
+A script that prints float 
+	#!/bin/bash
+	printf "%0.2f\n" $NUM
+
 
