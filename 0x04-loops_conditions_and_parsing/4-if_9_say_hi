@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
+# Print a string 10 times with customization
 
-# Initialize a counter
 counter=1
 while [ $counter -le 10 ]
 do
-	if [ $counter -eq 9 ]
-	then
-		echo -e "Best School\nHi"
-	else
-		echo "Best School"
-	fi
-	((counter++))
+  # Check if it's the 9th iteration
+  if [ $counter -eq 9 ]
+  then
+    echo "Hi"
+  else
+    # Print "Best School" for other iterations
+    echo "Best School"
+  fi
+
+  # Increment the counter
+  counter=$(( counter + 1 ))
 done
