@@ -5,9 +5,9 @@ while [ $i -ne 11 ]
 do
   if [ $i -eq 9 ]
   then
-    echo "Hi"
+    echo -e "Best School\nHi"
   else
-    echo "Best School"
+    echo  "Best School"
   fi
   i=$(( i + 1 ))
 done
