@@ -4,15 +4,11 @@
 counter=1
 while [ $counter -le 10 ]
 do
-  # Check if it's the 9th iteration
   if [ $counter -eq 9 ]
   then
     echo "Hi"
   else
-    # Print "Best School" for other iterations
     echo "Best School"
   fi
-
-  # Increment the counter
   counter=$(( counter + 1 ))
 done
