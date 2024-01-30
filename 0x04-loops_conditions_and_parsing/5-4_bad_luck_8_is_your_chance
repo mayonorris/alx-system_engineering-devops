@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
-# Script to display messages based on loop iteration
-counter=1
-while [ $counter -le 10 ] 
+#Script to display messages based on loop iteration
+i=0
+while [ $i != 10 ]
 do
-    if [ $counter -eq 4 ]
-    then
-        echo "Bad luck"
-    elif [ $counter -eq 8 ]
-    then
-        echo "Good luck"
-    else
-        echo "Best School"
-    fi
-
-    ((counter++))
+  if [ $i = 3 ]
+  then
+    echo "bad luck"
+  elif [ $i = 7 ]
+  then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  i=$(( i + 1 ))
 done
