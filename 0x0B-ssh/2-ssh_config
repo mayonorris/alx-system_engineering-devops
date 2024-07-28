@@ -1,0 +1,5 @@
+Host Mayo
+    HostName 100.25.135.136
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
